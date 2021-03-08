@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
 	slice := []int{7, 1, 3, 9, 4, 2, 8, 5, 6}
@@ -23,9 +21,14 @@ func main() {
 	//fmt.Println(slice3)
 
 	// 插入排序
-	slice4 := newSlice(slice)
-	InsertSort(slice4)
-	fmt.Println(slice4)
+	//slice4 := newSlice(slice)
+	//InsertSort(slice4)
+	//fmt.Println(slice4)
+
+	// 选择排序
+	slice5 := newSlice(slice)
+	SelectSort(slice5)
+	fmt.Println(slice5)
 }
 
 func newSlice(slice []int) []int {
