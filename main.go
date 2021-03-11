@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	slice := []int{7, 1, 3, 9, 4, 2, 8, 5, 6}
+	//slice := []int{7, 1, 3, 9, 4, 2, 8, 5, 6}
 
 	// 冒泡排序
 	//slice1 := newSlice(slice)
@@ -26,9 +26,13 @@ func main() {
 	//fmt.Println(slice4)
 
 	// 选择排序
-	slice5 := newSlice(slice)
-	SelectSort(slice5)
-	fmt.Println(slice5)
+	//slice5 := newSlice(slice)
+	//SelectSort(slice5)
+	//fmt.Println(slice5)
+
+	//Fibonacci
+	res := Fibonacci(5)
+	fmt.Printf("Fibonacci(5) is %d \n", res)
 }
 
 func newSlice(slice []int) []int {
